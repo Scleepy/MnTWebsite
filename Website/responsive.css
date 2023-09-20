@@ -1,0 +1,1050 @@
+@media only screen and (max-width: 1245px) { /*Laptops*/
+    
+    .keep-up-trend-title {
+        height: 25%;
+    }
+
+    .keep-up-trend-title h1{
+        font-size: 70px;
+    }
+
+    .style-container div::before {
+        display: none;
+    }
+
+    .style-container div {
+        margin-top: 0;
+    }
+
+    .style-container img {
+        width: 97%;
+    }
+
+    .style-container div::after {
+        font-size: 36px;
+        top: -120px;
+    }
+
+    .style-container div:hover::after {
+        top: -200px;
+    }
+    
+    .wear-page {
+        height: 500px;
+        padding-bottom: 10%;
+    }
+
+    .wear-page img {
+        height: 300px;
+    }
+
+    .wear-page h1 {
+        font-size: 32px;
+    }
+
+    .wear-page p {
+        font-size: 14px;
+        width: 400px;
+    }
+
+    .style-button {
+        height: 55px;
+        width: 230px;
+    }
+    
+    .wear-info {
+        width: 45%;
+        color: #464E2E; 
+    }
+
+    .check-our-collection {
+        height: 550px;
+    }
+
+    .check-our-collection h1 {
+        font-size: 96px;
+        width: 500px;
+    }
+
+    .check-our-collection button {
+        height: 95px;
+        width: 470px;
+        font-size: 32px;
+    }
+
+    .footer-wrapper {
+        height: 300px;
+    }
+
+    .jamal-image {
+        margin-right: 5%;
+        width: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .jamal-image img{
+        width: 90%;
+    }
+
+    .history-image {
+        margin-left: 5%;
+        width: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .history-image img{
+        width: 90%;
+    }
+
+    .about-us-shop-now {
+        height: 550px;
+    }
+
+    .about-us-shop-now div h1 {
+        font-size: 78px;
+        width: 500px;
+    }
+
+    .about-us-shop-now div button {
+        height: 95px;
+        width: 480px;
+        font-size: 32px;
+    }
+
+    .store-category h1 {
+        font-size: 32px;
+    }
+
+    .store-category input {
+        width: 180px;
+        height: 40px;   
+    }
+
+    .button-search {
+        height: 44px;
+    }
+}
+
+@media only screen and (max-width: 1205px) {/*Tablets*/
+    .korea {
+        margin-top: 20px;
+    }
+    .japan {
+        top: 25px;
+    }
+
+    .australia {
+        top: -95px;
+    }
+
+    .canada {
+        position: relative;
+        bottom: 100px;
+    }
+
+}
+
+@media only screen and (max-width: 1146px) { /*Laptops*/
+
+    .location-wrapper {
+        padding-bottom: 1%;
+    }
+
+    .dress-to-impress > div h1 {
+        font-size: 48px;
+    }
+
+    .dress-to-impress > div p {
+        margin-top: 5px;
+        width: 85%;
+        font-size: 16px;
+        line-height: 150%;
+        text-align: justify;
+    }
+
+    .dress-to-impress > div ul {
+        margin-top: 30px;
+    }
+
+    .dress-to-impress > div ul li {
+        width: 320px;
+        font-size: 24px;
+    }
+
+    .dress-to-impress > div ul li:nth-child(2) {
+        width: 250px;
+    }
+    
+    .dress-to-impress > div ul li:nth-child(3) {
+        width: 200px;
+    }
+
+    .dress-to-impress div {
+        width: 50%;
+    }
+
+    .dress-to-impress {
+        height: 600px;
+    }
+
+    .small-arrival h1 {
+        width: 160px;
+        margin-top: -85px;
+        margin-left: 10px;
+        font-size: 24px;
+    }
+    
+    .small-arrival:nth-child(3) h1 {
+        width: 130px;
+        margin-left: 30px;
+        font-size: 24px;
+    }
+    
+    .large-arrival h1 {
+        margin-top: -140px;
+        margin-left: 30px;
+        font-size: 48px;
+    }
+
+    .store-category h1 {
+        font-size: 24px;
+    }
+
+    .store-category input {
+        width: 150px;
+        height: 30px;
+        padding-left: 10px;
+    }
+
+    .store-category button {
+        height: 34px;
+        width: 40px;
+    }
+
+    .button-search {
+        top: 3px;
+    }
+
+    .button-search img {
+        height: 20px;
+        padding-right: 3px;
+    }
+
+    .clothing-container {
+        justify-content: space-evenly;
+    }
+}
+
+@media only screen and (max-width: 1000px) {/*Tablets*/
+    .store-filter {
+        display: none;
+    }
+
+    .right-store-container {
+        width: 90%;
+        margin-left: 0px;
+    }
+
+    .store-container {
+        padding-bottom: 100px;
+    }
+
+    .filter-button {
+        display: block;
+        margin-left: 20px;
+    }
+
+    .filter-side {
+        display: flex;
+    } 
+
+}
+
+@media only screen and (max-width: 809px) { 
+
+    .australia {
+        top: 40px;
+    }
+
+    .japan {
+        top: 60px;
+    }
+
+    .canada {
+        top: 80px;
+    }
+
+    .location-wrapper {
+        padding-bottom: 150px;
+    }
+
+    .store-locations {
+        padding-bottom: 40px;
+    }
+
+}
+
+
+@media only screen and (max-width: 800px) { /*Tablets*/
+
+    .keep-up-trend-title {
+        height: 20%;
+    }
+
+    .right-navbar {
+        display: none;
+    }
+
+    .center-navbar {
+        width: 70%; 
+    }
+
+    .homepage-content img {
+        height: 110px;
+        width: 272px;
+    }
+
+    .homepage-content h1 {
+        font-size: 64px;
+    }
+
+    .keep-up-trend-title h1{
+        font-size: 50px;
+    }
+
+    .keep-up-trend-title h3{
+        font-size: 25px;
+    }
+
+    .keep-up-trend {
+        margin-bottom: 20%;
+    }
+
+    .wear-page {
+        height: 100%;
+        padding-bottom: 20%;
+    }
+
+    .wear-page img {
+        height: 250px;
+    }
+    
+
+    .wear-page h1 {
+        font-size: 24px;
+    }
+
+    .wear-page p {
+        font-size: 14px;
+        width: 280px;
+    }
+
+    .style-button {
+        height: 50px;
+        width: 200px;
+        padding-left: 15px;
+        margin-top: 20px;
+    }
+
+    .style-container {
+        padding-bottom: 50px;
+    }
+
+    .style-container div:hover::after {
+        top: -150px;
+    }
+    
+    .wear-info {
+        width: 45%;
+        color: #464E2E; 
+    }
+
+    .check-our-collection {
+        height: 500px;
+    }
+
+    .check-our-collection h1 {
+        font-size: 64px;
+        width: 500px;
+    }
+
+    .check-our-collection button {
+        height: 70px;
+        width: 310px;
+        font-size: 24px;
+    }
+
+    .footer-wrapper {
+        height: 350px;
+    }
+
+    .homepage-header {
+        background-image: url("./img/homepage/homepage_tablet.png");
+    }
+
+    .dress-to-impress > div h1 {
+        font-size: 32px;
+    }
+
+    .dress-to-impress > div p {
+        margin-top: 5px;
+        width: 80%;
+        font-size: 14px;
+        line-height: 150%;
+        text-align: justify;
+    }
+
+    .dress-to-impress > div ul {
+        margin-top: 10px;
+    }
+
+    .dress-to-impress > div ul li {
+        width: 270px;
+        font-size: 16px;
+    }
+
+    .dress-to-impress > div ul li:nth-child(2) {
+        width: 200px;
+    }
+    
+    .dress-to-impress > div ul li:nth-child(3) {
+        width: 120px;
+    }
+
+    .dress-to-impress div {
+        width: 50%;
+    }
+
+    .dress-to-impress {
+        height: 700px;
+    }
+
+    .about-us-title h1 {
+        font-size: 32px;
+    }
+    
+    .about-us-title h2 {
+        font-size: 24px;
+    }
+
+    .about-us-title p {
+        font-size: 14px;
+    }
+
+    .about-us-container {
+        height: 100%;
+    }
+
+    .history {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .why-us-title {
+        height: 150px;
+    }
+
+    .why-us-title h1 {
+        font-size: 48px;
+    }
+
+    .why-item {
+        padding-top: 50px;
+        height: 300px;
+        width: 220px;
+    }
+    
+    .why-item h2 {
+        font-size: 24px;
+    }
+    
+    .why-item img {
+        height: 60px;
+    }
+    
+    .why-item p {
+        font-size: 14px;
+        width: 180px;
+    }
+
+    .about-us-shop-now {
+        height: 500px;
+    }
+
+    .about-us-shop-now div h1 {
+        font-size: 64px;
+        width: 500px;
+    }
+
+    .about-us-shop-now div button {
+        height: 70px;
+        width: 400px;
+        font-size: 24px;
+    }
+
+    .header-wrapper {
+        height: 1200px;
+    }
+
+    .arrivals {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .large-arrival img {
+        width: 100%;
+    }
+    
+    .small-arrival {
+        width: 50%;
+        margin-top: 50px;
+    }
+
+    .small-arrival:nth-child(3) img{
+        padding-left: 5%;
+    }
+
+}
+
+@media only screen and (max-width: 769px) { /*Tablets*/
+
+    .right-store-container {
+        width: 95%;
+    }
+
+}
+
+@media only screen and (max-width: 675px) { /*Mobile*/
+
+    .left-navbar img {
+        margin-left: 30px;
+    }
+    
+    .navbar-homepage {
+        margin-right: 0;
+    }
+    
+    .center-navbar {
+        display: none;
+    }
+
+    .hamburger-button {
+        display: block;
+    }
+
+    .sidenav {
+        display: flex;
+        overflow: hidden;
+    } 
+}
+
+@media only screen and (max-width: 600px) { /*Mobile*/
+    
+
+    .homepage-content img {
+        height: 50px;
+        width: 125px;
+    }
+
+    .homepage-content h1 {
+        font-size: 32px;
+    }
+
+    .button-white-rounded {
+        height: 45px;
+        font-size: 14px;
+        width: 150px;
+        padding-left: 15px;
+        background-size: 8px;
+        background-position: 90% 50%;
+    }
+
+    .homepage-header {
+        height: 500px;
+    }
+
+
+    .keep-up-trend-title {
+        height: 10%;
+    }
+
+    .keep-up-trend-title h1 {
+        font-size: 28px;
+    }
+
+    .keep-up-trend-title h3 {
+        font-size: 16px;
+    }
+
+    .style-container {
+        padding-top: 50px;
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .style-container div {
+        width: 40%;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .style-container div::after {
+        font-size: 24px;
+    }
+
+    .casual-page h1::before {
+        margin-bottom: 50px;
+        content: "";
+        background-image: url("./img/homepage/casual_wear.png");
+        background-size: cover;
+        display: block;
+        height: 200px;
+        width: 200px;
+    }
+
+    .formal-page h1::before {
+        margin-bottom: 50px;
+        content: "";
+        background-image: url("./img/homepage/formal_wear.png");
+        background-size: cover;
+        display: block;
+        height: 200px;
+        width: 200px;
+    }
+
+    .street-page h1::before {
+        margin-bottom: 50px;
+        content: "";
+        background-image: url("./img/homepage/street_wear.png");
+        background-size: cover;
+        display: block;
+        height: 200px;
+        width: 200px;
+    }
+
+    .biker-page h1::before {
+        margin-bottom: 50px;
+        content: "";
+        background-image: url("./img/homepage/biker_wear.png");
+        background-size: cover;
+        display: block;
+        height: 200px;
+        width: 200px;
+    }
+
+    .wear-page {
+        height: 600px;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+
+    .wear-page img {
+        display: none;
+    }
+
+    .wear-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .check-our-collection {
+        height: 280px;
+    }
+
+    .check-our-collection h1 {
+        font-size: 48px;
+        width: 300px;
+    }
+
+    .check-our-collection button {
+        width: 235px;
+    }
+
+    .footer-wrapper {
+        height: 400px;
+    }
+    
+    .footer-left {
+        width: 90%;
+    }
+
+    .footer-left p{
+       font-size: 14px;
+       width :100%;
+       text-align: justify;
+    }
+
+    .footer-left h1{
+        font-size: 24px;
+    }
+
+    .footer-left button{
+        width: 150px;
+    }
+
+    .footer-explore {
+        width: 150px;
+    }
+
+    .explore-wrapper ul li a{
+        font-size: 14px;
+    }
+
+    .footer-more ul li{ 
+        font-size: 14px;
+    }
+
+    .footer-right {
+        margin-top: -30px;
+        width: 100px;
+    }
+
+    .footer-right img {
+        height: 30px;
+    }
+
+    .copyright-container {
+        font-size: 14px;
+    }
+
+    .homepage-header {
+        background-image: url("./img/homepage/homepage_mobile.png");
+    }
+
+    .info-panel {
+        height: 300px;
+        width: 350px;
+    }
+
+    .info-panel h1 {
+        font-size: 24px;
+    }
+
+    .info-panel p {
+        font-size: 14px;
+        width: 85%;
+        line-height: 125%;
+    }
+
+    .info-text-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .subscribe-panel {
+        width: 370px;
+        height: 660px;
+    }
+
+    .form-container {
+        width: 300px;
+    }
+
+    .form-container h1 {
+        font-size: 24px;
+    }
+
+    .input-field {
+        width: 100%;
+    }
+
+    .input-field label {
+        font-size: 14px;
+    }
+
+    .input-field input {
+        font-size: 14px;
+    }
+
+    .hidden-message {
+        font-size: 14px;
+    }
+
+    .agreement-checkbox {
+        font-size: 14px;
+    }
+
+    .button-subscribe {
+        width: 100%;
+    }
+
+    #country {
+        font-size: 14px;
+    }
+
+    .store-info {
+        width: 200px;
+    }
+
+    .store-info p{
+        font-size: 14px;
+    }
+
+    .location-wrapper > h1 {
+        font-size: 36px;
+        margin-bottom: 10px;
+    }
+    
+    .america {
+        position: relative;
+        top: 20px;
+    }
+
+    .korea {
+        position: relative;
+        top: 20px;
+    }
+
+    .australia {
+        top: 50px;
+    }
+
+    .japan {
+        top: 70px;
+    }
+
+    .canada {
+        top: 80px;
+    }
+
+    .location-wrapper {
+        padding-bottom: 150px;
+    }
+
+    .store-locations {
+        padding-bottom: 40px;
+    }
+
+    .about-us-info img {
+        display: none;
+    }
+
+    .about-us-info p::before {
+        margin-bottom: 50px;
+        content: "";
+        background-image: url("./img/aboutus/about_us_first.png");
+        background-size: cover;
+        display: block;
+        height: 200px;
+        width: 200px;
+        margin-left: 25%;
+    }
+
+    .about-us-info p {
+        width: 80%;
+        font-size: 14px;
+    }
+
+    .about-us-header h2 {
+        font-size: 16px;
+    }
+
+    .about-us-header h1 {
+        font-size: 32px;
+    }
+
+    .about-us-header h1 span {
+        font-size: 14px;
+    }
+
+    .who-are-we {
+        height: 800px;
+    }
+
+    .about-us-header {
+        height: 150px;
+    }
+
+    .dress-to-impress {
+        flex-direction: column;
+    }
+
+    .dress-to-impress > div h1 {
+        font-size: 32px;
+    }
+
+    .dress-to-impress > div p {
+        margin-top: 5px;
+        width: 95%;
+        font-size: 14px;
+        line-height: 120%;
+        text-align: justify;
+    }
+
+    .dress-to-impress > div ul li {
+        width: 155px;
+        font-size: 14px;
+        padding-left:  15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .dress-to-impress > div ul li:nth-child(2) {
+        width: 100px;
+    }
+    
+    .dress-to-impress > div ul li:nth-child(3) {
+        width: 70px;
+    }
+
+    .jamal-image {
+        display: none;
+    }
+
+    .about-us-title h1 {
+        margin-left: 20px;
+    }
+
+
+    .about-us-title h1::before {
+        margin-left: -20px;
+        margin-bottom: 50px;
+        content: "";
+        background-image: url("./img/aboutus/jamal.png");
+        background-size: cover;
+        display: block;
+        height: 200px;
+        width: 200px;
+    }
+
+    .about-us-container {
+        height: 750px;
+    }
+
+    .about-us-title {
+        align-items: center;
+    }
+
+    .history-image {
+        display: none;
+    }
+
+    .history .about-us-title h1::before {
+        background-image: url("./img/aboutus/history.png");
+        background-position: 50% 100%;
+    }
+
+    .about-us-shop-now {
+        height: 280px;
+    }
+
+    .about-us-shop-now div h1 {
+        font-size: 32px;
+        width: 200px;
+    }
+
+    .about-us-shop-now div button {
+        width: 200px;
+        height: 55px;
+        margin-top: 20px;
+    }
+
+    .header-wrapper {
+        height: 1000px;
+    }
+
+    
+}
+
+
+@media only screen and (max-width: 550px) {
+
+    .header-wrapper {
+        height: 900px;
+    }
+
+    .store-category {
+        flex-direction: column;
+        padding-left: 3%;
+    }
+
+    .store-category > div {
+        margin-top: 20px;
+    }
+
+    .store-category input {
+        width: 150px;
+        padding-left: 10px;
+    }
+
+    .clothing-item {
+        height: 250px;
+        width: 150px;
+    }
+    
+    .clothing-item img {
+        width: 100%;
+        border-radius: 12px 12px 0 0;
+    }
+
+    .item-info-clothes {
+        margin-left: 10px; 
+    }
+    
+    .clothing-item p:nth-child(1) {
+        font-size: 14px;
+    }
+
+    .clothing-item p:nth-child(2) {
+        font-size: 14px;
+    }
+    
+    .clothing-item p:nth-child(3) {
+        font-size: 14px;
+    }
+
+    .store-category {
+        width: 95%;
+    }
+
+    .store-category > div {
+        justify-content: space-between;
+    }
+
+    .filter-side {
+        margin-top: 100px;
+    }
+
+    .about-us-container {
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    .header-wrapper {
+        height: 650px;
+    }
+
+    .small-arrival h1 {
+        margin-top: -70px;
+        margin-left: 10px;
+        font-size: 20px;
+    }
+    
+    .small-arrival:nth-child(3) h1 {
+        margin-left: 25px;
+        font-size: 20px;
+    }
+
+    .about-us-info p::before {
+        margin-left: 15%;
+    }
+
+    .subscribe-panel {
+        width: 350px;
+    }
+
+    .location-wrapper > h1 {
+        font-size: 30px;
+    }
+
+    
+}

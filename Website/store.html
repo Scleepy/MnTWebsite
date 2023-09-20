@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>Store</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar-container">
+            <div class="left-navbar">
+                <a href="./homepage.html"><img src="./img/icons/logo_mnt_white.png" alt="MnT Logo Navbar"></a>
+            </div>
+            <div class="center-navbar">
+                <a href="./homepage.html">Home</a>
+                <a href="./store.html">Clothes</a>
+                <a href="./aboutus.html">About Us</a>
+                <a href="./locations.html">Locations</a>
+                <a href="./subscribe.html">Subscribe</a>
+            </div>
+            <div class="right-navbar">
+                <img src="./img/icons/shopping_icon.png" alt="Shopping Icon">
+            </div>
+
+            <button class="hamburger-button"></button>
+
+        </nav>
+    </header>
+
+    <div class="sidenav">
+        <a href="./homepage.html">Home</a>
+        <a href="./store.html">Clothes</a>
+        <a href="./aboutus.html">About Us</a>
+        <a href="./locations.html">Locations</a>
+        <a href="./subscribe.html">Subscribe</a>
+        <img src="./img/icons/shopping_icon.png" alt="Shopping Icon">
+    </div>
+
+    <section class="header-store">
+        <div class="header-wrapper">
+            <h1>New Arrivals</h1>
+            <div class="arrivals">
+                <div class="large-arrival">
+                    <img src="./img/store/jean_outerwear.png" alt="">
+                    <h1>Jean <br> Outerwear</h1>
+                </div>
+                <div class="small-arrival">
+                    <img src="./img/store/black_n_yellow.png" alt="">
+                    <h1>Black n' Yellow Street Jacket</h1>
+                </div>
+                <div class="small-arrival">
+                    <img src="./img/store/yankee_outerwear.png" alt="">
+                    <h1>Yankee's Outerwear</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="store-container">
+        <div class="store-wrapper">
+
+            <div class="store-filter">
+                <div class="filter-wrapper">
+                    <h1>Filter</h1>
+
+                    <form action="" id="filter-form">
+                        <div class="filter-userfield">
+                            <label for="sortby">Sort by:</label>
+                            <select name="sortby" id="sortby">
+                                <option value="newest">Newest</option>
+                                <option value="price-ascending">Price ascending</option>
+                                <option value="price-descending">Price descending</option>
+                            </select>
+                        </div>
+                        <div class="filter-userfield">
+                            <label for="category-filter">Category</label>
+                            <select name="category-filter" id="category-filter">
+                                <option value="filter-tops">Men's tops</option>
+                                <option value="filter-bottoms">Men's bottoms</option>
+                            </select>
+                        </div>
+
+                        <div class="filter-userfield">
+                            <label for="category-filter">Minimum price:</label>
+                            <input type="text" placeholder="Rp">
+                        </div>
+
+                        <div class="filter-userfield">
+                            <label for="category-filter">Maximum price:</label>
+                            <input type="text" placeholder="Rp">
+                        </div>
+
+                        <button class="button-filter-search">Search</button>
+                    </form>
+                </div>
+                
+            </div>
+
+            <div class="right-store-container">
+               <div class="store-category">
+                    <h1>Category: Tops</h1>
+                    <div>
+                        <div>
+                            <input type="text" placeholder="Biking leather jacket">
+                            <button class="button-search"><img src="./img/icons/search.png" alt=""></button>
+                        </div>
+                        
+                        <button class="filter-button"></button>
+                    </div>
+                </div>
+
+                <div class="filter-side">
+                    <h1>Filter</h1>
+
+                    <form action="" id="filter-form-side" class="inner-filter-side">
+                        <div class="filter-userfield">
+                            <label for="sortby">Sort by:</label>
+                            <select name="sortby" id="sortby">
+                                <option value="newest">Newest</option>
+                                <option value="price-ascending">Price ascending</option>
+                                <option value="price-descending">Price descending</option>
+                            </select>
+                        </div>
+                        <div class="filter-userfield">
+                            <label for="category-filter">Category</label>
+                            <select name="category-filter" id="category-filter-side">
+                                <option value="filter-tops">Men's tops</option>
+                                <option value="filter-bottoms">Men's bottoms</option>
+                            </select>
+                        </div>
+
+                        <div class="filter-userfield">
+                            <label for="category-filter">Minimum price:</label>
+                            <input type="text" placeholder="Rp">
+                        </div>
+
+                        <div class="filter-userfield">
+                            <label for="category-filter">Maximum price:</label>
+                            <input type="text" placeholder="Rp">
+                        </div>
+
+                        <button class="button-filter-search">Search</button>
+                    </form>
+                </div>
+
+                <div class="clothing-container">
+                    <div class="clothing-item">
+                        <img src="./img/store/tops/top_1.png" alt="">
+                        <div class="item-info-clothes">
+                            <p>Men's tops</p>
+                            <p>Plain Grey Shirt</p>
+                            <p>Rp150.000</p>
+                        </div>
+                    </div>
+
+                    <div class="clothing-item">
+                        <img src="./img/store/tops/top_2.png" alt="">
+                        <div class="item-info-clothes">
+                            <p>Men's tops</p>
+                            <p>Black Suit</p>
+                            <p>Rp650.000</p>
+                        </div>
+                    </div>
+
+                    <div class="clothing-item">
+                        <img src="./img/store/tops/top_3.png" alt="">
+                        <div class="item-info-clothes">
+                            <p>Men's tops</p>
+                            <p>Brown Jacket</p>
+                            <p>Rp370.000</p>
+                        </div>
+                    </div>
+
+                    <div class="clothing-item">
+                        <img src="./img/store/tops/top_4.png" alt="">
+                        <div class="item-info-clothes">
+                            <p>Men's tops</p>
+                            <p>Grey Long Sleeves</p>
+                            <p>Rp250.000</p>
+                        </div>
+                    </div>
+
+                    <div class="clothing-item">
+                        <img src="./img/store/tops/top_5.png" alt="">
+                        <div class="item-info-clothes">
+                            <p>Men's tops</p>
+                            <p>Neko Shirt</p>
+                            <p>Rp150.000</p>
+                        </div>
+                    </div>
+
+                    <div class="clothing-item">
+                        <img src="./img/store/tops/top_6.png" alt="">
+                        <div class="item-info-clothes">
+                            <p>Men's tops</p>
+                            <p>White V-neck</p>
+                            <p>Rp150.000</p>
+                        </div>
+                    </div>
+
+                    <div class="clothing-item">
+                        <img src="./img/store/tops/top_7.png" alt="">
+                        <div class="item-info-clothes">
+                            <p>Men's tops</p>
+                            <p>White Jacket</p>
+                            <p>Rp250.000</p>
+                        </div>
+                    </div>
+
+                    <div class="clothing-item">
+                        <img src="./img/store/tops/top_8.png" alt="">
+                        <div class="item-info-clothes">
+                            <p>Men's tops</p>
+                            <p>Purple Shirt</p>
+                            <p>Rp300.000</p>
+                        </div>
+                    </div>
+                    
+                    <div class="clothing-item">
+                        <img src="./img/store/tops/top_9.png" alt="">
+                        <div class="item-info-clothes">
+                            <p>Men's tops</p>
+                            <p>Moss Green Jacket</p>
+                            <p>Rp560.000</p>
+                        </div>
+                    </div>
+
+                    <div class="clothing-item">
+                        <img src="./img/store/tops/top_10.png" alt="">
+                        <div class="item-info-clothes">
+                            <p>Men's tops</p>
+                            <p>Orange Jacket</p>
+                            <p>Rp450.000</p>
+                        </div>
+                    </div>
+
+                    <div class="clothing-item">
+                        <img src="./img/store/tops/top_11.png" alt="">
+                        <div class="item-info-clothes">
+                            <p>Men's tops</p>
+                            <p>Biker Leather Jacket</p>
+                            <p>Rp850.000</p>
+                        </div>
+                    </div>
+
+                    <div class="clothing-item">
+                        <img src="./img/store/tops/top_12.png" alt="">
+                        <div class="item-info-clothes">
+                            <p>Men's tops</p>
+                            <p>Abstract Color Shirt</p>
+                            <p>Rp180.000</p>
+                        </div>
+                    </div>
+                </div> 
+
+                <div class="page-navigation">
+                    <img id="arrow-left-pagenav" src="./img/icons/arrow_left_black.png" alt="">
+                    <p>Prev</p>
+                        <a href="">1</a>
+                        <a href="">2</a>
+                        <a href="">3</a>
+                        <a href="">...</a>
+                        <a href="">10</a>
+                        <a href="">11</a>
+                        <a href="">12</a>
+                    <p>Next</p>
+                    <img id="arrow-right-pagenav" src="./img/icons/arrow_right_black.png" alt="">
+                </div>
+
+            </div>
+    
+            
+        </div>
+    </section>
+
+    <footer class="footer-container">
+
+        <div class="footer-wrapper"">
+
+            <div class="footer-left">
+                <a href="./homepage.html"><img src="./img/icons/logo_mnt_white.png" alt="MnT Logo Navbar"></a>
+                <p>Like our content? Subscribe to our mailing list to receive updates regarding new arrivals, trends, fashion styles, events, and various deals!</p>
+                <div class="footer-left-inner">
+                    <h1>Join the family</h1>
+                    <a href="./subscribe.html"><button class="button-white">Subscribe</button></a>
+                </div>
+            </div>
+
+            <div class="footer-explore">
+                <h1>Explore:</h1>
+                <div class="explore-wrapper">
+                    <ul>
+                        <li><a href="./homepage.html">Home</a></li>
+                        <li><a href="./store.html">Clothes</a></li>
+                        <li><a href="./aboutus.html">About Us</a></li>
+                    </ul>
+
+                    <ul>
+                        <li><a href="./locations.html">Locations</a></li>
+                        <li><a href="./subscribe.html">Subscribe</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-more">
+                <h1>More:</h1>
+                <ul>
+                    <li>Terms of use</li>
+                    <li>Privacy policy</li>
+                    <li>Help center</li>
+                </ul>
+            </div>
+
+            <div class="footer-right">
+                <h1>Reach Us:</h1>
+                <div>
+                    <a href="https://www.instagram.com/" target="_blank"><img src="./img/icons/instagram.png" alt=""></a>
+                    <a href="https://twitter.com/" target="_blank"><img src="./img/icons/twitter.png" alt=""></a>
+                    <a href="https://www.google.com/gmail/" target="_blank"><img src="./img/icons/email.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright-container">
+            <p>M&T &copy; 2022 - All Rights Reserved</p>
+        </div>
+    </footer>
+    <script src="./filter.js"></script>
+    <script src="./sidebar.js"></script>
+    <script src="./sidefilter.js"></script>
+</body>
+</html>
